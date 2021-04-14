@@ -38,9 +38,10 @@ body {
   background-color: #fff;
   width: 340px;
   max-width: 340px;
-  height: 360px;
+  height: 370px;
   border-radius: 15px;
-  box-shadow: 0 15px 10px $primaryDark;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
   display: flex;
   flex-direction: column;
   &__top {
@@ -84,7 +85,7 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 10px 35px;
+    padding: 10px 50px;
     text-align: center;
     div {
       p:first-of-type {
